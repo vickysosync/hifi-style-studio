@@ -25,8 +25,8 @@ import {
 export type CartLine = {
   productId: string;
   qty: number;
-  size?: string;
-  color?: string;
+  size?: string | undefined;
+  color?: string | undefined;
 };
 
 const KEY = "hifi:v1";
