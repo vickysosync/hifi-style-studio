@@ -6,8 +6,8 @@ export type OrderItem = {
   image: string;
   price: number;
   qty: number;
-  size?: string;
-  color?: string;
+  size?: string | undefined;
+  color?: string | undefined;
 };
 
 export type Order = {
